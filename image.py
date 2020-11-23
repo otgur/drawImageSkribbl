@@ -21,15 +21,16 @@ img = img.convert('1') # convert image to black and white
 
 #img.show()
 
-from draw import draw
+from draw import Drawer
 
-d = draw(xmax, ymax)
+d = Drawer(xmax, ymax)
 
 for x in range(xmax):
     for y in range(ymax):
         #print(img.getpixel((x,y)))
         if(img.getpixel((x,y)) == 0):
             color = 0
+            d.draw(x, y)
         else:
             color = 1
-        d.draw(x, y, color)
+        
