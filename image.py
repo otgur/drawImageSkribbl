@@ -19,11 +19,11 @@ img = img.resize((xmax, ymax))
 
 img = img.convert('1') # convert image to black and white
 
-img.show()
+#img.show()
 
-#from draw import draw
+from draw import draw
 
-#d = draw(xmax, ymax)
+d = draw(xmax, ymax)
 
 for x in range(xmax):
     for y in range(ymax):
