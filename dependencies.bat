@@ -1,1 +1,1 @@
-pip install Pillow requests pyautogui
+pip install Pillow requests

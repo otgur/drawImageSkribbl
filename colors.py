@@ -1,8 +1,8 @@
 from enum import IntEnum
 
-def Color(IntEnum):
+class Color(IntEnum):
     WHITE = 0
-    BLSCK = 1
+    BLACK = 1
     LIGHTGRAY = 0
     DARKGRAY = 3
     RED = 4

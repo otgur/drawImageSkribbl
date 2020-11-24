@@ -10,7 +10,7 @@ img = Image.open(BytesIO(response.content))
 
 xmax, ymax = img.size
 
-t = xmax/500
+t = xmax/200
 
 xmax = round(xmax/t)
 ymax = round(ymax/t)
